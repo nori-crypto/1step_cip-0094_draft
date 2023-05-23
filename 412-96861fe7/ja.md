@@ -1,4 +1,4 @@
-# 1STEP Cardanoステークプール の意見 (`96861fe7`)
+# 1STEP Cardanoステークプール の意見
 
 ## 概要
 
