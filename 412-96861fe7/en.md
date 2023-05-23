@@ -2,6 +2,8 @@
 
 ## Summary
 
+Poll Hash: `96861fe7da8d45ba5db95071ed3889ed1412929f33610636c072a4b5ab550211`
+
 We **1STEP** have chosen the option "**`Keep k at 500 and halve minPoolCost to 170 ada`**".
 
 ## Reason
