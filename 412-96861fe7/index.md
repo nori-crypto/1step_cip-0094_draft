@@ -1,4 +1,4 @@
 # 412-96861fe7
 
-* [日本語](ja.md)
-* [English](en.md)
+* [日本語版](ja.md)
+* [English Version](en.md)
