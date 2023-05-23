@@ -18,7 +18,7 @@ Regarding the k parameter, we support **keep it at 500**. Increasing `k` would m
 
 ### Decrease Minimum Fixed Cost
 
-We support **decreasing** the minimum fixed cost (`minPoolCost`). The existence of a minimum fixed cost is the primary factor that **reduces the rate of return for small pools** and is the **advantage for delegaters choosing large pools**. This becomes easier to understand when you consider the ratio of the reward a delegate receives to the number of blocks generated per epoch of the pool. If the fixed cost is `340ADA` and the variable fee is `0%`, we have the following. (Assuming the reward for generating one block is `500ADA`)
+We support **decreasing** the minimum fixed cost (`minPoolCost`). The existence of a minimum fixed cost is the primary factor that **reduces the rate of return for small pools** and is the **advantage for delegaters choosing large pools**. This becomes easier to understand when you consider the ratio of the reward delegaters receives to the number of blocks generated per epoch of the pool. If the fixed cost is `340ADA` and the variable fee is `0%`, we have the following. (Assuming the reward for generating one block is `500ADA`)
 
 | Blocks Generated | Total Reward | Operator Reward | Delegator Reward | Delegator Reward Ratio |
 |---:|---:|---:|---:|---:|
