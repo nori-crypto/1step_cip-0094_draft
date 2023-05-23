@@ -3,7 +3,6 @@
 ## 概要
 
 Pollハッシュ値: `96861fe7da8d45ba5db95071ed3889ed1412929f33610636c072a4b5ab550211`  
-Voteハッシュ値: ``
 
 **1STEP** では『**k値は500のまま、最低固定費を170 ADAへ半減させる**』（`Keep k at 500 and halve minPoolCost to 170 ada`）を選択いたしました。
 
