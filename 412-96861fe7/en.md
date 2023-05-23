@@ -28,7 +28,7 @@ We support **decreasing** the minimum fixed cost (`minPoolCost`). The existence 
 | 4 | 2,000 | 340 | 1,660 | 83.00% |
 | 5 | 2,500 | 340 | 2,160 | 86.40% |
 
-In a pool with one generated block per epoch, the fee earned by the delegaters is `32%` of the total pool fee, which is not even half as much as in a pool with four or five generated blocks. Thus, even with a variable fee of `0%`, the small pool is hardly competitive, and delegaters will naturally flow to the large pool. On the other hand, if we assume a fixed cost of `170ADA` and a variable fee of `0%`, we have the following.
+In a pool with one generated block per epoch, the reward earned by the delegaters is `32%` of the total pool reward, which is not even half as much as in a pool with four or five generated blocks. Thus, even with a variable fee of `0%`, the small pool is hardly competitive, and delegaters will naturally flow to the large pool. On the other hand, if we assume a fixed cost of `170ADA` and a variable fee of `0%`, we have the following.
 
 | Blocks Generated | Total Reward | Operator Reward | Delegator Reward | Delegator Reward Ratio |
 |---:|---:|---:|---:|---:|
@@ -42,4 +42,4 @@ We can see that the percentage of compensation earned by delegaters improved for
 
 ### Considerations
 
-Minimum fixed cost were introduced from a sustainability perspective **to prevent the network from collapsing** due to pool collapse caused by **heated excessive "low-cost competition"**. Lowering the minimum fixed cost will increase this risk by no small amount. Although the vote this time asked only for a change in parameters, we believe that the introduction of a mechanism such as **minimum variable fees** is necessary to reduce the impact of a decrease in minimum fixed cost on sustainability.
+Minimum fixed cost were introduced from a sustainability perspective **to prevent the network from collapsing** due to pool collapse caused by **heated excessive "low-cost competition"**. Lowering the minimum fixed cost will increase this risk by no small amount. Although the vote this time asked only for a change in parameters, we believe that the introduction of a mechanism such as **minimum variable fee** is necessary to reduce the impact of a decrease in minimum fixed cost on sustainability.
