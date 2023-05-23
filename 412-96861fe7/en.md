@@ -1,4 +1,4 @@
-# Opinion of 1STEP Cardano Stake Pool (`96861fe7`)
+# Opinion of 1STEP Cardano Stake Pool
 
 ## Summary
 
