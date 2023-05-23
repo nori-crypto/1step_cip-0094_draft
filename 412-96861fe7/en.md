@@ -18,7 +18,7 @@ Regarding the k parameter, we support **keep it at 500**. Increasing `k` would m
 
 ### Decrease Minimum Fixed Cost
 
-We support **decreasing** the minimum fixed cost (`minPoolCost`). The existence of a minimum fixed cost is the primary factor that **reduces the rate of return for small pools** and is the **advantage for delegaters choosing large pools**. This becomes easier to understand when you consider the ratio of the reward delegaters receives to the number of blocks generated per epoch of the pool. If the fixed cost is `340ADA` and the variable fee is `0%`, we have the following. (Assuming the reward for generating one block is `500ADA`)
+We support **decreasing** the minimum fixed cost (`minPoolCost`). The existence of a minimum fixed cost is the primary factor that **reduces the rate of return for small pools** and is the **advantage for delegators choosing large pools**. This becomes easier to understand when you consider the ratio of the reward delegators receives to the number of blocks generated per epoch of the pool. If the fixed cost is `340ADA` and the variable fee is `0%`, we have the following. (Assuming the reward for generating one block is `500ADA`)
 
 | Blocks Generated | Total Reward | Operator Reward | Delegator Reward | Delegator Reward Ratio |
 |---:|---:|---:|---:|---:|
@@ -28,9 +28,9 @@ We support **decreasing** the minimum fixed cost (`minPoolCost`). The existence 
 | 4 | 2,000 | 340 | 1,660 | 83.00% |
 | 5 | 2,500 | 340 | 2,160 | 86.40% |
 
-In a pool with one generated block per epoch, the reward earned by the delegaters is `32%` of the total pool reward, which is not even half as much as in a pool with four or five generated blocks. Thus, even with a variable fee of `0%`, the small pool is hardly competitive, and delegaters will naturally flow to the large pool. On the other hand, if we assume a fixed cost of `170ADA` and a variable fee of `0%`, we have the following.
+In a pool with one generated block per epoch, the reward earned by the delegators is `32%` of the total pool reward, which is not even half as much as in a pool with four or five generated blocks. Thus, even with a variable fee of `0%`, the small pool is hardly competitive, and delegators will naturally flow to the large pool. On the other hand, if we assume a fixed cost of `170ADA` and a variable fee of `0%`, we have the following.
 
-| Blocks Generated | Total Reward | Operator Reward | Delegator Reward | Delegator Reward Ratio |
+| Blocks Generated | Total Reward | Operator Reward | Delegators Reward | Delegators Reward Ratio |
 |---:|---:|---:|---:|---:|
 | 1 | 500 | 170 | 330 | 66.00% |
 | 2 | 1,000 | 170 | 830 | 83.00% |
@@ -38,7 +38,7 @@ In a pool with one generated block per epoch, the reward earned by the delegater
 | 4 | 2,000 | 170 | 1,830 | 91.50% |
 | 5 | 2,500 | 170 | 2,330 | 93.20% |
 
-We can see that the percentage of compensation earned by delegaters improved for pools with fewer blocks generated per epoch. We are **in favor of decreasing the minimum fixed cost** at this time, as it would make the smaller pools more competitive.
+We can see that the percentage of compensation earned by delegators improved for pools with fewer blocks generated per epoch. We are **in favor of decreasing the minimum fixed cost** at this time, as it would make the smaller pools more competitive.
 
 ### Considerations
 
