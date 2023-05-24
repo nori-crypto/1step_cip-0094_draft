@@ -14,7 +14,7 @@ Our decision focuses on **protecting small pools**. As Cardano grows as a public
 
 ### Keep k at 500
 
-Regarding the k parameter, we support **keep it at 500**. Increasing `k` would mean lowering the saturation point of the pool, which would essentially encourage a move from large pools to smaller pools, but the reality is that this is not the case. Some SPOs **avoids the saturation point** by **operationg multiple pools** in pursuit of profit. Currently, there is no solution to this, and it is expected that the increase in `k` will result in an increase in multiple pools. Since this would mean further weakening of the smaller pools, we are **opposed to increasing k** at this time.
+Regarding the k parameter, we support **keep it at 500**. Increasing `k` would mean lowering the saturation point of the pool, which would essentially encourage a move from large pools to smaller pools, but the reality is that this is not the case. Some SPOs **avoid the saturation point** by **operating multiple pools** in pursuit of profit. Currently, there is no solution to this, and it is expected that the increase in `k` will result in an increase in multiple pools. Since this would mean further weakening of the smaller pools, we are **opposed to increasing k** at this time.
 
 ### Decrease Minimum Fixed Cost
 
